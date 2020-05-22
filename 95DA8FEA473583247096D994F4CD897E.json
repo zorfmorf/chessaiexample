@@ -1,0 +1,577 @@
+{
+	"Type": "Generic",
+	"GUID": "95DA8FEA473583247096D994F4CD897E",
+	"Name": "Chess Board",
+	"CollisionType": "Ground",
+	"Friction": 0.7,
+	"Restitution": 0.3,
+	"Density": 1,
+	"SurfaceType": "Wood",
+	"Roughness": 1,
+	"Metallic": 0,
+	"PrimaryColor":
+	{
+		"R": 34,
+		"G": 15,
+		"B": 0
+	},
+	"SecondaryColor":
+	{
+		"R": 195,
+		"G": 195,
+		"B": 195
+	},
+	"Flippable": false,
+	"ScriptName": "",
+	"Blueprint": "",
+	"Models": [
+		{
+			"Model": "StaticMesh'/Game/Meshes/Chess/Chess_Board.Chess_Board'",
+			"Offset":
+			{
+				"X": 0,
+				"Y": 0,
+				"Z": 0
+			},
+			"Scale":
+			{
+				"X": 1,
+				"Y": 1,
+				"Z": 1
+			},
+			"Rotation":
+			{
+				"X": 0,
+				"Y": 0,
+				"Z": 0
+			},
+			"Texture": "Texture2D'/Game/Textures/Chess/T_ChessBoard.T_ChessBoard'",
+			"NormalMap": "Texture2D'/Game/Textures/Chess/N_ChessBoard.N_ChessBoard'",
+			"ExtraMap": "Texture2D'/Game/Textures/Chess/T_ChessBoard_Extra.T_ChessBoard_Extra'",
+			"IsTransparent": false,
+			"UseOverrides": true,
+			"SurfaceType": "Plastic"
+		}
+	],
+	"Collision": [],
+	"SnapPoints": [
+		{
+			"X": -19.5,
+			"Y": -19.5,
+			"Z": 1,
+			"Range": 5,
+			"SnapRotation": false,
+			"RotationOffset": 0
+		},
+		{
+			"X": -19.5,
+			"Y": -13.9286,
+			"Z": 1,
+			"Range": 5,
+			"SnapRotation": false,
+			"RotationOffset": 0
+		},
+		{
+			"X": -19.5,
+			"Y": -8.35714,
+			"Z": 1,
+			"Range": 5,
+			"SnapRotation": false,
+			"RotationOffset": 0
+		},
+		{
+			"X": -19.5,
+			"Y": -2.78571,
+			"Z": 1,
+			"Range": 5,
+			"SnapRotation": false,
+			"RotationOffset": 0
+		},
+		{
+			"X": -19.5,
+			"Y": 2.78571,
+			"Z": 1,
+			"Range": 5,
+			"SnapRotation": false,
+			"RotationOffset": 0
+		},
+		{
+			"X": -19.5,
+			"Y": 8.35714,
+			"Z": 1,
+			"Range": 5,
+			"SnapRotation": false,
+			"RotationOffset": 0
+		},
+		{
+			"X": -19.5,
+			"Y": 13.9286,
+			"Z": 1,
+			"Range": 5,
+			"SnapRotation": false,
+			"RotationOffset": 0
+		},
+		{
+			"X": -19.5,
+			"Y": 19.5,
+			"Z": 1,
+			"Range": 5,
+			"SnapRotation": false,
+			"RotationOffset": 0
+		},
+		{
+			"X": -13.9286,
+			"Y": -19.5,
+			"Z": 1,
+			"Range": 5,
+			"SnapRotation": false,
+			"RotationOffset": 0
+		},
+		{
+			"X": -13.9286,
+			"Y": -13.9286,
+			"Z": 1,
+			"Range": 5,
+			"SnapRotation": false,
+			"RotationOffset": 0
+		},
+		{
+			"X": -13.9286,
+			"Y": -8.35714,
+			"Z": 1,
+			"Range": 5,
+			"SnapRotation": false,
+			"RotationOffset": 0
+		},
+		{
+			"X": -13.9286,
+			"Y": -2.78571,
+			"Z": 1,
+			"Range": 5,
+			"SnapRotation": false,
+			"RotationOffset": 0
+		},
+		{
+			"X": -13.9286,
+			"Y": 2.78571,
+			"Z": 1,
+			"Range": 5,
+			"SnapRotation": false,
+			"RotationOffset": 0
+		},
+		{
+			"X": -13.9286,
+			"Y": 8.35714,
+			"Z": 1,
+			"Range": 5,
+			"SnapRotation": false,
+			"RotationOffset": 0
+		},
+		{
+			"X": -13.9286,
+			"Y": 13.9286,
+			"Z": 1,
+			"Range": 5,
+			"SnapRotation": false,
+			"RotationOffset": 0
+		},
+		{
+			"X": -13.9286,
+			"Y": 19.5,
+			"Z": 1,
+			"Range": 5,
+			"SnapRotation": false,
+			"RotationOffset": 0
+		},
+		{
+			"X": -8.35714,
+			"Y": -19.5,
+			"Z": 1,
+			"Range": 5,
+			"SnapRotation": false,
+			"RotationOffset": 0
+		},
+		{
+			"X": -8.35714,
+			"Y": -13.9286,
+			"Z": 1,
+			"Range": 5,
+			"SnapRotation": false,
+			"RotationOffset": 0
+		},
+		{
+			"X": -8.35714,
+			"Y": -8.35714,
+			"Z": 1,
+			"Range": 5,
+			"SnapRotation": false,
+			"RotationOffset": 0
+		},
+		{
+			"X": -8.35714,
+			"Y": -2.78571,
+			"Z": 1,
+			"Range": 5,
+			"SnapRotation": false,
+			"RotationOffset": 0
+		},
+		{
+			"X": -8.35714,
+			"Y": 2.78571,
+			"Z": 1,
+			"Range": 5,
+			"SnapRotation": false,
+			"RotationOffset": 0
+		},
+		{
+			"X": -8.35714,
+			"Y": 8.35714,
+			"Z": 1,
+			"Range": 5,
+			"SnapRotation": false,
+			"RotationOffset": 0
+		},
+		{
+			"X": -8.35714,
+			"Y": 13.9286,
+			"Z": 1,
+			"Range": 5,
+			"SnapRotation": false,
+			"RotationOffset": 0
+		},
+		{
+			"X": -8.35714,
+			"Y": 19.5,
+			"Z": 1,
+			"Range": 5,
+			"SnapRotation": false,
+			"RotationOffset": 0
+		},
+		{
+			"X": -2.78571,
+			"Y": -19.5,
+			"Z": 1,
+			"Range": 5,
+			"SnapRotation": false,
+			"RotationOffset": 0
+		},
+		{
+			"X": -2.78571,
+			"Y": -13.9286,
+			"Z": 1,
+			"Range": 5,
+			"SnapRotation": false,
+			"RotationOffset": 0
+		},
+		{
+			"X": -2.78571,
+			"Y": -8.35714,
+			"Z": 1,
+			"Range": 5,
+			"SnapRotation": false,
+			"RotationOffset": 0
+		},
+		{
+			"X": -2.78571,
+			"Y": -2.78571,
+			"Z": 1,
+			"Range": 5,
+			"SnapRotation": false,
+			"RotationOffset": 0
+		},
+		{
+			"X": -2.78571,
+			"Y": 2.78571,
+			"Z": 1,
+			"Range": 5,
+			"SnapRotation": false,
+			"RotationOffset": 0
+		},
+		{
+			"X": -2.78571,
+			"Y": 8.35714,
+			"Z": 1,
+			"Range": 5,
+			"SnapRotation": false,
+			"RotationOffset": 0
+		},
+		{
+			"X": -2.78571,
+			"Y": 13.9286,
+			"Z": 1,
+			"Range": 5,
+			"SnapRotation": false,
+			"RotationOffset": 0
+		},
+		{
+			"X": -2.78571,
+			"Y": 19.5,
+			"Z": 1,
+			"Range": 5,
+			"SnapRotation": false,
+			"RotationOffset": 0
+		},
+		{
+			"X": 2.78571,
+			"Y": -19.5,
+			"Z": 1,
+			"Range": 5,
+			"SnapRotation": false,
+			"RotationOffset": 0
+		},
+		{
+			"X": 2.78571,
+			"Y": -13.9286,
+			"Z": 1,
+			"Range": 5,
+			"SnapRotation": false,
+			"RotationOffset": 0
+		},
+		{
+			"X": 2.78571,
+			"Y": -8.35714,
+			"Z": 1,
+			"Range": 5,
+			"SnapRotation": false,
+			"RotationOffset": 0
+		},
+		{
+			"X": 2.78571,
+			"Y": -2.78571,
+			"Z": 1,
+			"Range": 5,
+			"SnapRotation": false,
+			"RotationOffset": 0
+		},
+		{
+			"X": 2.78571,
+			"Y": 2.78571,
+			"Z": 1,
+			"Range": 5,
+			"SnapRotation": false,
+			"RotationOffset": 0
+		},
+		{
+			"X": 2.78571,
+			"Y": 8.35714,
+			"Z": 1,
+			"Range": 5,
+			"SnapRotation": false,
+			"RotationOffset": 0
+		},
+		{
+			"X": 2.78571,
+			"Y": 13.9286,
+			"Z": 1,
+			"Range": 5,
+			"SnapRotation": false,
+			"RotationOffset": 0
+		},
+		{
+			"X": 2.78571,
+			"Y": 19.5,
+			"Z": 1,
+			"Range": 5,
+			"SnapRotation": false,
+			"RotationOffset": 0
+		},
+		{
+			"X": 8.35714,
+			"Y": -19.5,
+			"Z": 1,
+			"Range": 5,
+			"SnapRotation": false,
+			"RotationOffset": 0
+		},
+		{
+			"X": 8.35714,
+			"Y": -13.9286,
+			"Z": 1,
+			"Range": 5,
+			"SnapRotation": false,
+			"RotationOffset": 0
+		},
+		{
+			"X": 8.35714,
+			"Y": -8.35714,
+			"Z": 1,
+			"Range": 5,
+			"SnapRotation": false,
+			"RotationOffset": 0
+		},
+		{
+			"X": 8.35714,
+			"Y": -2.78571,
+			"Z": 1,
+			"Range": 5,
+			"SnapRotation": false,
+			"RotationOffset": 0
+		},
+		{
+			"X": 8.35714,
+			"Y": 2.78571,
+			"Z": 1,
+			"Range": 5,
+			"SnapRotation": false,
+			"RotationOffset": 0
+		},
+		{
+			"X": 8.35714,
+			"Y": 8.35714,
+			"Z": 1,
+			"Range": 5,
+			"SnapRotation": false,
+			"RotationOffset": 0
+		},
+		{
+			"X": 8.35714,
+			"Y": 13.9286,
+			"Z": 1,
+			"Range": 5,
+			"SnapRotation": false,
+			"RotationOffset": 0
+		},
+		{
+			"X": 8.35714,
+			"Y": 19.5,
+			"Z": 1,
+			"Range": 5,
+			"SnapRotation": false,
+			"RotationOffset": 0
+		},
+		{
+			"X": 13.9286,
+			"Y": -19.5,
+			"Z": 1,
+			"Range": 5,
+			"SnapRotation": false,
+			"RotationOffset": 0
+		},
+		{
+			"X": 13.9286,
+			"Y": -13.9286,
+			"Z": 1,
+			"Range": 5,
+			"SnapRotation": false,
+			"RotationOffset": 0
+		},
+		{
+			"X": 13.9286,
+			"Y": -8.35714,
+			"Z": 1,
+			"Range": 5,
+			"SnapRotation": false,
+			"RotationOffset": 0
+		},
+		{
+			"X": 13.9286,
+			"Y": -2.78571,
+			"Z": 1,
+			"Range": 5,
+			"SnapRotation": false,
+			"RotationOffset": 0
+		},
+		{
+			"X": 13.9286,
+			"Y": 2.78571,
+			"Z": 1,
+			"Range": 5,
+			"SnapRotation": false,
+			"RotationOffset": 0
+		},
+		{
+			"X": 13.9286,
+			"Y": 8.35714,
+			"Z": 1,
+			"Range": 5,
+			"SnapRotation": false,
+			"RotationOffset": 0
+		},
+		{
+			"X": 13.9286,
+			"Y": 13.9286,
+			"Z": 1,
+			"Range": 5,
+			"SnapRotation": false,
+			"RotationOffset": 0
+		},
+		{
+			"X": 13.9286,
+			"Y": 19.5,
+			"Z": 1,
+			"Range": 5,
+			"SnapRotation": false,
+			"RotationOffset": 0
+		},
+		{
+			"X": 19.5,
+			"Y": -19.5,
+			"Z": 1,
+			"Range": 5,
+			"SnapRotation": false,
+			"RotationOffset": 0
+		},
+		{
+			"X": 19.5,
+			"Y": -13.9286,
+			"Z": 1,
+			"Range": 5,
+			"SnapRotation": false,
+			"RotationOffset": 0
+		},
+		{
+			"X": 19.5,
+			"Y": -8.35714,
+			"Z": 1,
+			"Range": 5,
+			"SnapRotation": false,
+			"RotationOffset": 0
+		},
+		{
+			"X": 19.5,
+			"Y": -2.78571,
+			"Z": 1,
+			"Range": 5,
+			"SnapRotation": false,
+			"RotationOffset": 0
+		},
+		{
+			"X": 19.5,
+			"Y": 2.78571,
+			"Z": 1,
+			"Range": 5,
+			"SnapRotation": false,
+			"RotationOffset": 0
+		},
+		{
+			"X": 19.5,
+			"Y": 8.35714,
+			"Z": 1,
+			"Range": 5,
+			"SnapRotation": false,
+			"RotationOffset": 0
+		},
+		{
+			"X": 19.5,
+			"Y": 13.9286,
+			"Z": 1,
+			"Range": 5,
+			"SnapRotation": false,
+			"RotationOffset": 0
+		},
+		{
+			"X": 19.5,
+			"Y": 19.5,
+			"Z": 1,
+			"Range": 5,
+			"SnapRotation": false,
+			"RotationOffset": 0
+		}
+	],
+	"ZoomViewDirection":
+	{
+		"X": 0,
+		"Y": 0,
+		"Z": 0
+	}
+}

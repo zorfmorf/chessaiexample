@@ -1,0 +1,2154 @@
+{
+	"saveStateVersion": "1.0",
+	"gameState":
+	{
+		"measureUnit": 2.5399999618530273,
+		"notes": "You can enter notes for the game here. They will be visible to all players and are stored when the game is saved.\n\nYou can use [color=#ff0000]colors[/color], [b]bold[/b] or [i]italic[/i] text, [size=9]different[/size] [size=16]sizes[/size], and [color=#00ff00][size=8][b][i]combine text styles.[/color][/size][/b][/i]",
+		"currentTurn": 0,
+		"globalScriptPackage": "00000000000000000000000000000000",
+		"globalScriptName": "",
+		"permissions":
+		{
+			"delete": -1,
+			"objectLibrary": -1,
+			"copyPaste": -1,
+			"cardExplorer": -1,
+			"containerExplorer": -1,
+			"changeOwner": -1
+		},
+		"physicsLocked": false,
+		"measureAngles": false,
+		"alwaysSnap": false,
+		"liftOverRegular": true,
+		"playersIds": [
+			"76561197995055465:0",
+			"",
+			"",
+			"",
+			"",
+			"",
+			"",
+			"",
+			"",
+			""
+		],
+		"bCanBeDamaged": false
+	},
+	"requiredPackages": [
+		{
+			"name": "Stockfish Chess Engine",
+			"guid": "B8E73B764CF33272FD77909B59727430"
+		}
+	],
+	"storedCameraSetups": [ false, false, false, false, false, false, false, false, false, false ],
+	"objects": [
+		{
+			"objectType": "DynamicObject",
+			"transform":
+			{
+				"rotation":
+				{
+					"x": -6.0478469094960019e-06,
+					"y": 3.4621125450939871e-06,
+					"z": -5.3261129551174236e-07,
+					"w": 1
+				},
+				"translation":
+				{
+					"x": 2.8966569900512695,
+					"y": -14.3046875,
+					"z": 89.42791748046875
+				},
+				"scale3D":
+				{
+					"x": 1,
+					"y": 1,
+					"z": 1
+				}
+			},
+			"simulatingPhysics": true,
+			"primaryColor":
+			{
+				"b": 200,
+				"g": 255,
+				"r": 255,
+				"a": 255
+			},
+			"secondaryColor":
+			{
+				"b": 0,
+				"g": 0,
+				"r": 0,
+				"a": 255
+			},
+			"metallic": 0,
+			"roughness": 1,
+			"friction": 0.69999998807907104,
+			"restitution": 0.30000001192092896,
+			"density": 1,
+			"surfaceType": "SurfaceType2",
+			"objectName": "",
+			"objectDescription": "",
+			"collisionType": "CB_Regular",
+			"templateId": "5070F326481A54B7669E6F89FE6C81B9",
+			"shouldSnap": true,
+			"previousPosition":
+			{
+				"x": 0,
+				"y": 0,
+				"z": 0
+			},
+			"objectScriptPackage": "B8E73B764CF33272FD77909B59727430",
+			"objectScriptName": "chessPiece.js",
+			"uniqueId": "wp4",
+			"objectGroupId": -1,
+			"bCanBeDamaged": false
+		},
+		{
+			"objectType": "DynamicObject",
+			"transform":
+			{
+				"rotation":
+				{
+					"x": 5.3263152040017303e-06,
+					"y": -3.1590575417794753e-06,
+					"z": -2.1305120299075497e-06,
+					"w": 1
+				},
+				"translation":
+				{
+					"x": 19.610958099365234,
+					"y": -19.877529144287109,
+					"z": 89.934066772460938
+				},
+				"scale3D":
+				{
+					"x": 1,
+					"y": 1,
+					"z": 1
+				}
+			},
+			"simulatingPhysics": true,
+			"primaryColor":
+			{
+				"b": 200,
+				"g": 255,
+				"r": 255,
+				"a": 255
+			},
+			"secondaryColor":
+			{
+				"b": 0,
+				"g": 0,
+				"r": 0,
+				"a": 255
+			},
+			"metallic": 0,
+			"roughness": 1,
+			"friction": 0.69999998807907104,
+			"restitution": 0.30000001192092896,
+			"density": 1,
+			"surfaceType": "SurfaceType2",
+			"objectName": "",
+			"objectDescription": "",
+			"collisionType": "CB_Regular",
+			"templateId": "E3C6AD424A2B186E998B8F937CB28A24",
+			"shouldSnap": true,
+			"previousPosition":
+			{
+				"x": 0,
+				"y": 0,
+				"z": 0
+			},
+			"objectScriptPackage": "B8E73B764CF33272FD77909B59727430",
+			"objectScriptName": "chessPiece.js",
+			"uniqueId": "wr1",
+			"objectGroupId": -1,
+			"bCanBeDamaged": false
+		},
+		{
+			"objectType": "DynamicObject",
+			"transform":
+			{
+				"rotation":
+				{
+					"x": 2.8247106911294395e-06,
+					"y": 9.4156359864427941e-07,
+					"z": -0.7071082592010498,
+					"w": 0.70710527896881104
+				},
+				"translation":
+				{
+					"x": -8.2462215423583984,
+					"y": -19.877309799194336,
+					"z": 89.401206970214844
+				},
+				"scale3D":
+				{
+					"x": 1,
+					"y": 1,
+					"z": 1
+				}
+			},
+			"simulatingPhysics": true,
+			"primaryColor":
+			{
+				"b": 200,
+				"g": 255,
+				"r": 255,
+				"a": 255
+			},
+			"secondaryColor":
+			{
+				"b": 0,
+				"g": 0,
+				"r": 0,
+				"a": 255
+			},
+			"metallic": 0,
+			"roughness": 1,
+			"friction": 0.69999998807907104,
+			"restitution": 0.30000001192092896,
+			"density": 1,
+			"surfaceType": "SurfaceType2",
+			"objectName": "",
+			"objectDescription": "",
+			"collisionType": "CB_Regular",
+			"templateId": "CF47194547010161A2CA6B936FB4FA4B",
+			"shouldSnap": true,
+			"previousPosition":
+			{
+				"x": 0,
+				"y": 0,
+				"z": 0
+			},
+			"objectScriptPackage": "B8E73B764CF33272FD77909B59727430",
+			"objectScriptName": "chessPiece.js",
+			"uniqueId": "wb2",
+			"objectGroupId": -1,
+			"bCanBeDamaged": false
+		},
+		{
+			"objectType": "DynamicObject",
+			"transform":
+			{
+				"rotation":
+				{
+					"x": 4.5076517380948644e-06,
+					"y": 1.1687348887789994e-05,
+					"z": -0.70710712671279907,
+					"w": 0.70710647106170654
+				},
+				"translation":
+				{
+					"x": 8.4681167602539063,
+					"y": -19.877073287963867,
+					"z": 89.401229858398438
+				},
+				"scale3D":
+				{
+					"x": 1,
+					"y": 1,
+					"z": 1
+				}
+			},
+			"simulatingPhysics": true,
+			"primaryColor":
+			{
+				"b": 200,
+				"g": 255,
+				"r": 255,
+				"a": 255
+			},
+			"secondaryColor":
+			{
+				"b": 0,
+				"g": 0,
+				"r": 0,
+				"a": 255
+			},
+			"metallic": 0,
+			"roughness": 1,
+			"friction": 0.69999998807907104,
+			"restitution": 0.30000001192092896,
+			"density": 1,
+			"surfaceType": "SurfaceType2",
+			"objectName": "",
+			"objectDescription": "",
+			"collisionType": "CB_Regular",
+			"templateId": "CF47194547010161A2CA6B936FB4FA4B",
+			"shouldSnap": true,
+			"previousPosition":
+			{
+				"x": 0,
+				"y": 0,
+				"z": 0
+			},
+			"objectScriptPackage": "B8E73B764CF33272FD77909B59727430",
+			"objectScriptName": "chessPiece.js",
+			"uniqueId": "wb1",
+			"objectGroupId": -1,
+			"bCanBeDamaged": false
+		},
+		{
+			"objectType": "DynamicObject",
+			"transform":
+			{
+				"rotation":
+				{
+					"x": 5.3263221388988313e-07,
+					"y": 5.9286576299319438e-13,
+					"z": 1.1130865686936886e-06,
+					"w": 1
+				},
+				"translation":
+				{
+					"x": -19.388961791992188,
+					"y": -14.305239677429199,
+					"z": 89.42791748046875
+				},
+				"scale3D":
+				{
+					"x": 1,
+					"y": 1,
+					"z": 1
+				}
+			},
+			"simulatingPhysics": true,
+			"primaryColor":
+			{
+				"b": 200,
+				"g": 255,
+				"r": 255,
+				"a": 255
+			},
+			"secondaryColor":
+			{
+				"b": 0,
+				"g": 0,
+				"r": 0,
+				"a": 255
+			},
+			"metallic": 0,
+			"roughness": 1,
+			"friction": 0.69999998807907104,
+			"restitution": 0.30000001192092896,
+			"density": 1,
+			"surfaceType": "SurfaceType2",
+			"objectName": "",
+			"objectDescription": "",
+			"collisionType": "CB_Regular",
+			"templateId": "5070F326481A54B7669E6F89FE6C81B9",
+			"shouldSnap": true,
+			"previousPosition":
+			{
+				"x": 0,
+				"y": 0,
+				"z": 0
+			},
+			"objectScriptPackage": "B8E73B764CF33272FD77909B59727430",
+			"objectScriptName": "chessPiece.js",
+			"uniqueId": "wp8",
+			"objectGroupId": -1,
+			"bCanBeDamaged": false
+		},
+		{
+			"objectType": "DynamicObject",
+			"transform":
+			{
+				"rotation":
+				{
+					"x": 4.1750868149392772e-06,
+					"y": -1.8247206753585488e-05,
+					"z": 0.70711535215377808,
+					"w": 0.70709824562072754
+				},
+				"translation":
+				{
+					"x": 14.03938102722168,
+					"y": -19.877691268920898,
+					"z": 89.925521850585938
+				},
+				"scale3D":
+				{
+					"x": 1,
+					"y": 1,
+					"z": 1
+				}
+			},
+			"simulatingPhysics": true,
+			"primaryColor":
+			{
+				"b": 200,
+				"g": 255,
+				"r": 255,
+				"a": 255
+			},
+			"secondaryColor":
+			{
+				"b": 0,
+				"g": 0,
+				"r": 0,
+				"a": 255
+			},
+			"metallic": 0,
+			"roughness": 1,
+			"friction": 0.69999998807907104,
+			"restitution": 0.30000001192092896,
+			"density": 1,
+			"surfaceType": "SurfaceType2",
+			"objectName": "",
+			"objectDescription": "",
+			"collisionType": "CB_Regular",
+			"templateId": "41AAE8E94673348EE80E49A555AA544B",
+			"shouldSnap": true,
+			"previousPosition":
+			{
+				"x": 0,
+				"y": 0,
+				"z": 0
+			},
+			"objectScriptPackage": "B8E73B764CF33272FD77909B59727430",
+			"objectScriptName": "chessPiece.js",
+			"uniqueId": "wk1",
+			"objectGroupId": -1,
+			"bCanBeDamaged": false
+		},
+		{
+			"objectType": "DynamicObject",
+			"transform":
+			{
+				"rotation":
+				{
+					"x": 4.2215865505568217e-06,
+					"y": -1.8284905308973975e-05,
+					"z": 0.70711052417755127,
+					"w": 0.70710301399230957
+				},
+				"translation":
+				{
+					"x": -13.817657470703125,
+					"y": -19.877277374267578,
+					"z": 89.925529479980469
+				},
+				"scale3D":
+				{
+					"x": 1,
+					"y": 1,
+					"z": 1
+				}
+			},
+			"simulatingPhysics": true,
+			"primaryColor":
+			{
+				"b": 200,
+				"g": 255,
+				"r": 255,
+				"a": 255
+			},
+			"secondaryColor":
+			{
+				"b": 0,
+				"g": 0,
+				"r": 0,
+				"a": 255
+			},
+			"metallic": 0,
+			"roughness": 1,
+			"friction": 0.69999998807907104,
+			"restitution": 0.30000001192092896,
+			"density": 1,
+			"surfaceType": "SurfaceType2",
+			"objectName": "",
+			"objectDescription": "",
+			"collisionType": "CB_Regular",
+			"templateId": "41AAE8E94673348EE80E49A555AA544B",
+			"shouldSnap": true,
+			"previousPosition":
+			{
+				"x": 0,
+				"y": 0,
+				"z": 0
+			},
+			"objectScriptPackage": "B8E73B764CF33272FD77909B59727430",
+			"objectScriptName": "chessPiece.js",
+			"uniqueId": "wk2",
+			"objectGroupId": -1,
+			"bCanBeDamaged": false
+		},
+		{
+			"objectType": "DynamicObject",
+			"transform":
+			{
+				"rotation":
+				{
+					"x": -4.609620646078838e-06,
+					"y": -6.4969572122208774e-06,
+					"z": 1.1161970178363845e-05,
+					"w": 1
+				},
+				"translation":
+				{
+					"x": -13.817683219909668,
+					"y": -14.305089950561523,
+					"z": 89.427940368652344
+				},
+				"scale3D":
+				{
+					"x": 1,
+					"y": 1,
+					"z": 1
+				}
+			},
+			"simulatingPhysics": true,
+			"primaryColor":
+			{
+				"b": 200,
+				"g": 255,
+				"r": 255,
+				"a": 255
+			},
+			"secondaryColor":
+			{
+				"b": 0,
+				"g": 0,
+				"r": 0,
+				"a": 255
+			},
+			"metallic": 0,
+			"roughness": 1,
+			"friction": 0.69999998807907104,
+			"restitution": 0.30000001192092896,
+			"density": 1,
+			"surfaceType": "SurfaceType2",
+			"objectName": "",
+			"objectDescription": "",
+			"collisionType": "CB_Regular",
+			"templateId": "5070F326481A54B7669E6F89FE6C81B9",
+			"shouldSnap": true,
+			"previousPosition":
+			{
+				"x": 0,
+				"y": 0,
+				"z": 0
+			},
+			"objectScriptPackage": "B8E73B764CF33272FD77909B59727430",
+			"objectScriptName": "chessPiece.js",
+			"uniqueId": "wp7",
+			"objectGroupId": -1,
+			"bCanBeDamaged": false
+		},
+		{
+			"objectType": "DynamicObject",
+			"transform":
+			{
+				"rotation":
+				{
+					"x": 1.0652644959918689e-05,
+					"y": -1.1920825500055798e-06,
+					"z": 9.5957386747613782e-07,
+					"w": 1
+				},
+				"translation":
+				{
+					"x": -2.6748549938201904,
+					"y": -14.30677604675293,
+					"z": 89.42791748046875
+				},
+				"scale3D":
+				{
+					"x": 1,
+					"y": 1,
+					"z": 1
+				}
+			},
+			"simulatingPhysics": true,
+			"primaryColor":
+			{
+				"b": 200,
+				"g": 255,
+				"r": 255,
+				"a": 255
+			},
+			"secondaryColor":
+			{
+				"b": 0,
+				"g": 0,
+				"r": 0,
+				"a": 255
+			},
+			"metallic": 0,
+			"roughness": 1,
+			"friction": 0.69999998807907104,
+			"restitution": 0.30000001192092896,
+			"density": 1,
+			"surfaceType": "SurfaceType2",
+			"objectName": "",
+			"objectDescription": "",
+			"collisionType": "CB_Regular",
+			"templateId": "5070F326481A54B7669E6F89FE6C81B9",
+			"shouldSnap": true,
+			"previousPosition":
+			{
+				"x": 0,
+				"y": 0,
+				"z": 0
+			},
+			"objectScriptPackage": "B8E73B764CF33272FD77909B59727430",
+			"objectScriptName": "chessPiece.js",
+			"uniqueId": "wp5",
+			"objectGroupId": -1,
+			"bCanBeDamaged": false
+		},
+		{
+			"objectType": "DynamicObject",
+			"transform":
+			{
+				"rotation":
+				{
+					"x": -3.8941019853133696e-10,
+					"y": -1.1920928244535389e-07,
+					"z": -4.2610577111190651e-06,
+					"w": 1
+				},
+				"translation":
+				{
+					"x": -8.2464427947998047,
+					"y": -14.306342124938965,
+					"z": 89.427909851074219
+				},
+				"scale3D":
+				{
+					"x": 1,
+					"y": 1,
+					"z": 1
+				}
+			},
+			"simulatingPhysics": true,
+			"primaryColor":
+			{
+				"b": 200,
+				"g": 255,
+				"r": 255,
+				"a": 255
+			},
+			"secondaryColor":
+			{
+				"b": 0,
+				"g": 0,
+				"r": 0,
+				"a": 255
+			},
+			"metallic": 0,
+			"roughness": 1,
+			"friction": 0.69999998807907104,
+			"restitution": 0.30000001192092896,
+			"density": 1,
+			"surfaceType": "SurfaceType2",
+			"objectName": "",
+			"objectDescription": "",
+			"collisionType": "CB_Regular",
+			"templateId": "5070F326481A54B7669E6F89FE6C81B9",
+			"shouldSnap": true,
+			"previousPosition":
+			{
+				"x": 0,
+				"y": 0,
+				"z": 0
+			},
+			"objectScriptPackage": "B8E73B764CF33272FD77909B59727430",
+			"objectScriptName": "chessPiece.js",
+			"uniqueId": "wp6",
+			"objectGroupId": -1,
+			"bCanBeDamaged": false
+		},
+		{
+			"objectType": "DynamicObject",
+			"transform":
+			{
+				"rotation":
+				{
+					"x": 5.3263306654116604e-07,
+					"y": 2.6631440164237574e-07,
+					"z": -3.195793624399812e-06,
+					"w": 1
+				},
+				"translation":
+				{
+					"x": 8.4672832489013672,
+					"y": -14.30924129486084,
+					"z": 89.427909851074219
+				},
+				"scale3D":
+				{
+					"x": 1,
+					"y": 1,
+					"z": 1
+				}
+			},
+			"simulatingPhysics": true,
+			"primaryColor":
+			{
+				"b": 200,
+				"g": 255,
+				"r": 255,
+				"a": 255
+			},
+			"secondaryColor":
+			{
+				"b": 0,
+				"g": 0,
+				"r": 0,
+				"a": 255
+			},
+			"metallic": 0,
+			"roughness": 1,
+			"friction": 0.69999998807907104,
+			"restitution": 0.30000001192092896,
+			"density": 1,
+			"surfaceType": "SurfaceType2",
+			"objectName": "",
+			"objectDescription": "",
+			"collisionType": "CB_Regular",
+			"templateId": "5070F326481A54B7669E6F89FE6C81B9",
+			"shouldSnap": true,
+			"previousPosition":
+			{
+				"x": 0,
+				"y": 0,
+				"z": 0
+			},
+			"objectScriptPackage": "B8E73B764CF33272FD77909B59727430",
+			"objectScriptName": "chessPiece.js",
+			"uniqueId": "wp3",
+			"objectGroupId": -1,
+			"bCanBeDamaged": false
+		},
+		{
+			"objectType": "DynamicObject",
+			"transform":
+			{
+				"rotation":
+				{
+					"x": 7.9894834925653413e-06,
+					"y": -2.3843134044909675e-07,
+					"z": -1.597894765836827e-06,
+					"w": 1
+				},
+				"translation":
+				{
+					"x": 14.039524078369141,
+					"y": -14.305644035339355,
+					"z": 89.42791748046875
+				},
+				"scale3D":
+				{
+					"x": 1,
+					"y": 1,
+					"z": 1
+				}
+			},
+			"simulatingPhysics": true,
+			"primaryColor":
+			{
+				"b": 200,
+				"g": 255,
+				"r": 255,
+				"a": 255
+			},
+			"secondaryColor":
+			{
+				"b": 0,
+				"g": 0,
+				"r": 0,
+				"a": 255
+			},
+			"metallic": 0,
+			"roughness": 1,
+			"friction": 0.69999998807907104,
+			"restitution": 0.30000001192092896,
+			"density": 1,
+			"surfaceType": "SurfaceType2",
+			"objectName": "",
+			"objectDescription": "",
+			"collisionType": "CB_Regular",
+			"templateId": "5070F326481A54B7669E6F89FE6C81B9",
+			"shouldSnap": true,
+			"previousPosition":
+			{
+				"x": 0,
+				"y": 0,
+				"z": 0
+			},
+			"objectScriptPackage": "B8E73B764CF33272FD77909B59727430",
+			"objectScriptName": "chessPiece.js",
+			"uniqueId": "wp2",
+			"objectGroupId": -1,
+			"bCanBeDamaged": false
+		},
+		{
+			"objectType": "DynamicObject",
+			"transform":
+			{
+				"rotation":
+				{
+					"x": 1.3582120118371677e-05,
+					"y": -1.1324954130031983e-06,
+					"z": -5.3261680932337185e-07,
+					"w": 1
+				},
+				"translation":
+				{
+					"x": 19.61102294921875,
+					"y": -14.305553436279297,
+					"z": 89.427940368652344
+				},
+				"scale3D":
+				{
+					"x": 1,
+					"y": 1,
+					"z": 1
+				}
+			},
+			"simulatingPhysics": true,
+			"primaryColor":
+			{
+				"b": 200,
+				"g": 255,
+				"r": 255,
+				"a": 255
+			},
+			"secondaryColor":
+			{
+				"b": 0,
+				"g": 0,
+				"r": 0,
+				"a": 255
+			},
+			"metallic": 0,
+			"roughness": 1,
+			"friction": 0.69999998807907104,
+			"restitution": 0.30000001192092896,
+			"density": 1,
+			"surfaceType": "SurfaceType2",
+			"objectName": "",
+			"objectDescription": "",
+			"collisionType": "CB_Regular",
+			"templateId": "5070F326481A54B7669E6F89FE6C81B9",
+			"shouldSnap": true,
+			"previousPosition":
+			{
+				"x": 0,
+				"y": 0,
+				"z": 0
+			},
+			"objectScriptPackage": "B8E73B764CF33272FD77909B59727430",
+			"objectScriptName": "chessPiece.js",
+			"uniqueId": "wp1",
+			"objectGroupId": -1,
+			"bCanBeDamaged": false
+		},
+		{
+			"objectType": "DynamicObject",
+			"transform":
+			{
+				"rotation":
+				{
+					"x": 2.9294772048160667e-06,
+					"y": 2.6631533955878695e-07,
+					"z": -2.6631687433109619e-07,
+					"w": 1
+				},
+				"translation":
+				{
+					"x": 2.8966784477233887,
+					"y": -19.877721786499023,
+					"z": 89.930206298828125
+				},
+				"scale3D":
+				{
+					"x": 1,
+					"y": 1,
+					"z": 1
+				}
+			},
+			"simulatingPhysics": true,
+			"primaryColor":
+			{
+				"b": 200,
+				"g": 255,
+				"r": 255,
+				"a": 255
+			},
+			"secondaryColor":
+			{
+				"b": 0,
+				"g": 0,
+				"r": 0,
+				"a": 255
+			},
+			"metallic": 0,
+			"roughness": 1,
+			"friction": 0.69999998807907104,
+			"restitution": 0.30000001192092896,
+			"density": 1,
+			"surfaceType": "SurfaceType2",
+			"objectName": "",
+			"objectDescription": "",
+			"collisionType": "CB_Regular",
+			"templateId": "F16A1CFF430B1050851426ADA3ECCA4F",
+			"shouldSnap": true,
+			"previousPosition":
+			{
+				"x": 0,
+				"y": 0,
+				"z": 0
+			},
+			"objectScriptPackage": "B8E73B764CF33272FD77909B59727430",
+			"objectScriptName": "chessPiece.js",
+			"uniqueId": "wq",
+			"objectGroupId": -1,
+			"bCanBeDamaged": false
+		},
+		{
+			"objectType": "DynamicObject",
+			"transform":
+			{
+				"rotation":
+				{
+					"x": -1.6037367913668277e-06,
+					"y": 1.6037289469750249e-06,
+					"z": -0.70710504055023193,
+					"w": 0.70710849761962891
+				},
+				"translation":
+				{
+					"x": -2.6767842769622803,
+					"y": -19.873414993286133,
+					"z": 89.942352294921875
+				},
+				"scale3D":
+				{
+					"x": 1,
+					"y": 1,
+					"z": 1
+				}
+			},
+			"simulatingPhysics": true,
+			"primaryColor":
+			{
+				"b": 200,
+				"g": 255,
+				"r": 255,
+				"a": 255
+			},
+			"secondaryColor":
+			{
+				"b": 0,
+				"g": 0,
+				"r": 0,
+				"a": 255
+			},
+			"metallic": 0,
+			"roughness": 1,
+			"friction": 0.69999998807907104,
+			"restitution": 0.30000001192092896,
+			"density": 1,
+			"surfaceType": "SurfaceType2",
+			"objectName": "",
+			"objectDescription": "",
+			"collisionType": "CB_Regular",
+			"templateId": "D8B829DB40C8DFD7D2C166896DD6FF87",
+			"shouldSnap": true,
+			"previousPosition":
+			{
+				"x": 0,
+				"y": 0,
+				"z": 0
+			},
+			"objectScriptPackage": "B8E73B764CF33272FD77909B59727430",
+			"objectScriptName": "chessPiece.js",
+			"uniqueId": "wki",
+			"objectGroupId": -1,
+			"bCanBeDamaged": false
+		},
+		{
+			"objectType": "DynamicObject",
+			"transform":
+			{
+				"rotation":
+				{
+					"x": 2.7587816475715954e-07,
+					"y": 2.3605202841281425e-06,
+					"z": -0.70710790157318115,
+					"w": 0.70710563659667969
+				},
+				"translation":
+				{
+					"x": -19.388797760009766,
+					"y": 19.122982025146484,
+					"z": 89.934074401855469
+				},
+				"scale3D":
+				{
+					"x": 1,
+					"y": 1,
+					"z": 1
+				}
+			},
+			"simulatingPhysics": true,
+			"primaryColor":
+			{
+				"b": 14,
+				"g": 29,
+				"r": 50,
+				"a": 255
+			},
+			"secondaryColor":
+			{
+				"b": 0,
+				"g": 0,
+				"r": 0,
+				"a": 255
+			},
+			"metallic": 0,
+			"roughness": 1,
+			"friction": 0.69999998807907104,
+			"restitution": 0.30000001192092896,
+			"density": 1,
+			"surfaceType": "SurfaceType2",
+			"objectName": "",
+			"objectDescription": "",
+			"collisionType": "CB_Regular",
+			"templateId": "A45EE5C143ACDBEE4DE585A45E4653D7",
+			"shouldSnap": true,
+			"previousPosition":
+			{
+				"x": 0,
+				"y": 0,
+				"z": 0
+			},
+			"objectScriptPackage": "B8E73B764CF33272FD77909B59727430",
+			"objectScriptName": "chessPiece.js",
+			"uniqueId": "br2",
+			"objectGroupId": -1,
+			"bCanBeDamaged": false
+		},
+		{
+			"objectType": "DynamicObject",
+			"transform":
+			{
+				"rotation":
+				{
+					"x": 2.071452627205872e-06,
+					"y": 6.2143599279806949e-06,
+					"z": 0.70710688829421997,
+					"w": 0.70710670948028564
+				},
+				"translation":
+				{
+					"x": -2.6744983196258545,
+					"y": 19.124607086181641,
+					"z": 89.9423828125
+				},
+				"scale3D":
+				{
+					"x": 1,
+					"y": 1,
+					"z": 1
+				}
+			},
+			"simulatingPhysics": true,
+			"primaryColor":
+			{
+				"b": 14,
+				"g": 29,
+				"r": 50,
+				"a": 255
+			},
+			"secondaryColor":
+			{
+				"b": 0,
+				"g": 0,
+				"r": 0,
+				"a": 255
+			},
+			"metallic": 0,
+			"roughness": 1,
+			"friction": 0.69999998807907104,
+			"restitution": 0.30000001192092896,
+			"density": 1,
+			"surfaceType": "SurfaceType2",
+			"objectName": "",
+			"objectDescription": "",
+			"collisionType": "CB_Regular",
+			"templateId": "5B462B1C46555563C76BF682B6EE661D",
+			"shouldSnap": true,
+			"previousPosition":
+			{
+				"x": 0,
+				"y": 0,
+				"z": 0
+			},
+			"objectScriptPackage": "B8E73B764CF33272FD77909B59727430",
+			"objectScriptName": "chessPiece.js",
+			"uniqueId": "bki",
+			"objectGroupId": -1,
+			"bCanBeDamaged": false
+		},
+		{
+			"objectType": "DynamicObject",
+			"transform":
+			{
+				"rotation":
+				{
+					"x": -2.8655611004069215e-06,
+					"y": 2.396872559984331e-06,
+					"z": -9.5873729151207954e-06,
+					"w": 1
+				},
+				"translation":
+				{
+					"x": -8.2459850311279297,
+					"y": 13.552088737487793,
+					"z": 89.427940368652344
+				},
+				"scale3D":
+				{
+					"x": 1,
+					"y": 1,
+					"z": 1
+				}
+			},
+			"simulatingPhysics": true,
+			"primaryColor":
+			{
+				"b": 14,
+				"g": 29,
+				"r": 50,
+				"a": 255
+			},
+			"secondaryColor":
+			{
+				"b": 0,
+				"g": 0,
+				"r": 0,
+				"a": 255
+			},
+			"metallic": 0,
+			"roughness": 1,
+			"friction": 0.69999998807907104,
+			"restitution": 0.30000001192092896,
+			"density": 1,
+			"surfaceType": "SurfaceType2",
+			"objectName": "",
+			"objectDescription": "",
+			"collisionType": "CB_Regular",
+			"templateId": "CB6CF5DE46A6EE07FBA031B0B1DCB199",
+			"shouldSnap": true,
+			"previousPosition":
+			{
+				"x": 0,
+				"y": 0,
+				"z": 0
+			},
+			"objectScriptPackage": "B8E73B764CF33272FD77909B59727430",
+			"objectScriptName": "chessPiece.js",
+			"uniqueId": "bp6",
+			"objectGroupId": -1,
+			"bCanBeDamaged": false
+		},
+		{
+			"objectType": "DynamicObject",
+			"transform":
+			{
+				"rotation":
+				{
+					"x": -4.5636477352672955e-07,
+					"y": 1.2153728544406217e-12,
+					"z": -2.6631610126059968e-06,
+					"w": 1
+				},
+				"translation":
+				{
+					"x": -13.817523956298828,
+					"y": 13.552297592163086,
+					"z": 89.42791748046875
+				},
+				"scale3D":
+				{
+					"x": 1,
+					"y": 1,
+					"z": 1
+				}
+			},
+			"simulatingPhysics": true,
+			"primaryColor":
+			{
+				"b": 14,
+				"g": 29,
+				"r": 50,
+				"a": 255
+			},
+			"secondaryColor":
+			{
+				"b": 0,
+				"g": 0,
+				"r": 0,
+				"a": 255
+			},
+			"metallic": 0,
+			"roughness": 1,
+			"friction": 0.69999998807907104,
+			"restitution": 0.30000001192092896,
+			"density": 1,
+			"surfaceType": "SurfaceType2",
+			"objectName": "",
+			"objectDescription": "",
+			"collisionType": "CB_Regular",
+			"templateId": "CB6CF5DE46A6EE07FBA031B0B1DCB199",
+			"shouldSnap": true,
+			"previousPosition":
+			{
+				"x": 0,
+				"y": 0,
+				"z": 0
+			},
+			"objectScriptPackage": "B8E73B764CF33272FD77909B59727430",
+			"objectScriptName": "chessPiece.js",
+			"uniqueId": "bp7",
+			"objectGroupId": -1,
+			"bCanBeDamaged": false
+		},
+		{
+			"objectType": "DynamicObject",
+			"transform":
+			{
+				"rotation":
+				{
+					"x": -2.6941918918055308e-07,
+					"y": -8.1943696272901434e-08,
+					"z": -0.38270702958106995,
+					"w": 0.92386972904205322
+				},
+				"translation":
+				{
+					"x": -19.388763427734375,
+					"y": 13.552101135253906,
+					"z": 89.427909851074219
+				},
+				"scale3D":
+				{
+					"x": 1,
+					"y": 1,
+					"z": 1
+				}
+			},
+			"simulatingPhysics": true,
+			"primaryColor":
+			{
+				"b": 14,
+				"g": 29,
+				"r": 50,
+				"a": 255
+			},
+			"secondaryColor":
+			{
+				"b": 0,
+				"g": 0,
+				"r": 0,
+				"a": 255
+			},
+			"metallic": 0,
+			"roughness": 1,
+			"friction": 0.69999998807907104,
+			"restitution": 0.30000001192092896,
+			"density": 1,
+			"surfaceType": "SurfaceType2",
+			"objectName": "",
+			"objectDescription": "",
+			"collisionType": "CB_Regular",
+			"templateId": "CB6CF5DE46A6EE07FBA031B0B1DCB199",
+			"shouldSnap": true,
+			"previousPosition":
+			{
+				"x": 0,
+				"y": 0,
+				"z": 0
+			},
+			"objectScriptPackage": "B8E73B764CF33272FD77909B59727430",
+			"objectScriptName": "chessPiece.js",
+			"uniqueId": "bp8",
+			"objectGroupId": -1,
+			"bCanBeDamaged": false
+		},
+		{
+			"objectType": "DynamicObject",
+			"transform":
+			{
+				"rotation":
+				{
+					"x": 7.7208742368384264e-06,
+					"y": 1.8818286662281025e-07,
+					"z": -0.70711880922317505,
+					"w": 0.70709472894668579
+				},
+				"translation":
+				{
+					"x": 14.039937973022461,
+					"y": 19.123311996459961,
+					"z": 89.925521850585938
+				},
+				"scale3D":
+				{
+					"x": 1,
+					"y": 1,
+					"z": 1
+				}
+			},
+			"simulatingPhysics": true,
+			"primaryColor":
+			{
+				"b": 14,
+				"g": 29,
+				"r": 50,
+				"a": 255
+			},
+			"secondaryColor":
+			{
+				"b": 0,
+				"g": 0,
+				"r": 0,
+				"a": 255
+			},
+			"metallic": 0,
+			"roughness": 1,
+			"friction": 0.69999998807907104,
+			"restitution": 0.30000001192092896,
+			"density": 1,
+			"surfaceType": "SurfaceType2",
+			"objectName": "",
+			"objectDescription": "",
+			"collisionType": "CB_Regular",
+			"templateId": "DDCC6FE44E1A8549AC8F76934101D5FC",
+			"shouldSnap": true,
+			"previousPosition":
+			{
+				"x": 0,
+				"y": 0,
+				"z": 0
+			},
+			"objectScriptPackage": "B8E73B764CF33272FD77909B59727430",
+			"objectScriptName": "chessPiece.js",
+			"uniqueId": "bk1",
+			"objectGroupId": -1,
+			"bCanBeDamaged": false
+		},
+		{
+			"objectType": "DynamicObject",
+			"transform":
+			{
+				"rotation":
+				{
+					"x": -1.8280312360730022e-05,
+					"y": -4.2258957364538219e-06,
+					"z": -0.70711731910705566,
+					"w": 0.70709621906280518
+				},
+				"translation":
+				{
+					"x": -13.81781005859375,
+					"y": 19.124153137207031,
+					"z": 89.925521850585938
+				},
+				"scale3D":
+				{
+					"x": 1,
+					"y": 1,
+					"z": 1
+				}
+			},
+			"simulatingPhysics": true,
+			"primaryColor":
+			{
+				"b": 14,
+				"g": 29,
+				"r": 50,
+				"a": 255
+			},
+			"secondaryColor":
+			{
+				"b": 0,
+				"g": 0,
+				"r": 0,
+				"a": 255
+			},
+			"metallic": 0,
+			"roughness": 1,
+			"friction": 0.69999998807907104,
+			"restitution": 0.30000001192092896,
+			"density": 1,
+			"surfaceType": "SurfaceType2",
+			"objectName": "",
+			"objectDescription": "",
+			"collisionType": "CB_Regular",
+			"templateId": "DDCC6FE44E1A8549AC8F76934101D5FC",
+			"shouldSnap": true,
+			"previousPosition":
+			{
+				"x": 0,
+				"y": 0,
+				"z": 0
+			},
+			"objectScriptPackage": "B8E73B764CF33272FD77909B59727430",
+			"objectScriptName": "chessPiece.js",
+			"uniqueId": "bk2",
+			"objectGroupId": -1,
+			"bCanBeDamaged": false
+		},
+		{
+			"objectType": "DynamicObject",
+			"transform":
+			{
+				"rotation":
+				{
+					"x": -1.5079992376348939e-12,
+					"y": -5.9604641222676946e-08,
+					"z": -2.5300030756625347e-05,
+					"w": 1
+				},
+				"translation":
+				{
+					"x": 2.8967435359954834,
+					"y": 13.551959991455078,
+					"z": 89.427940368652344
+				},
+				"scale3D":
+				{
+					"x": 1,
+					"y": 1,
+					"z": 1
+				}
+			},
+			"simulatingPhysics": true,
+			"primaryColor":
+			{
+				"b": 14,
+				"g": 29,
+				"r": 50,
+				"a": 255
+			},
+			"secondaryColor":
+			{
+				"b": 0,
+				"g": 0,
+				"r": 0,
+				"a": 255
+			},
+			"metallic": 0,
+			"roughness": 1,
+			"friction": 0.69999998807907104,
+			"restitution": 0.30000001192092896,
+			"density": 1,
+			"surfaceType": "SurfaceType2",
+			"objectName": "",
+			"objectDescription": "",
+			"collisionType": "CB_Regular",
+			"templateId": "CB6CF5DE46A6EE07FBA031B0B1DCB199",
+			"shouldSnap": true,
+			"previousPosition":
+			{
+				"x": 0,
+				"y": 0,
+				"z": 0
+			},
+			"objectScriptPackage": "B8E73B764CF33272FD77909B59727430",
+			"objectScriptName": "chessPiece.js",
+			"uniqueId": "bp4",
+			"objectGroupId": -1,
+			"bCanBeDamaged": false
+		},
+		{
+			"objectType": "DynamicObject",
+			"transform":
+			{
+				"rotation":
+				{
+					"x": 3.4704039535427e-06,
+					"y": -1.587189444762771e-06,
+					"z": 0.70711731910705566,
+					"w": 0.70709627866744995
+				},
+				"translation":
+				{
+					"x": 8.4680700302124023,
+					"y": 19.123029708862305,
+					"z": 89.401229858398438
+				},
+				"scale3D":
+				{
+					"x": 1,
+					"y": 1,
+					"z": 1
+				}
+			},
+			"simulatingPhysics": true,
+			"primaryColor":
+			{
+				"b": 14,
+				"g": 29,
+				"r": 50,
+				"a": 255
+			},
+			"secondaryColor":
+			{
+				"b": 0,
+				"g": 0,
+				"r": 0,
+				"a": 255
+			},
+			"metallic": 0,
+			"roughness": 1,
+			"friction": 0.69999998807907104,
+			"restitution": 0.30000001192092896,
+			"density": 1,
+			"surfaceType": "SurfaceType2",
+			"objectName": "",
+			"objectDescription": "",
+			"collisionType": "CB_Regular",
+			"templateId": "76BE736B49135058FCF110B3B230D7E4",
+			"shouldSnap": true,
+			"previousPosition":
+			{
+				"x": 0,
+				"y": 0,
+				"z": 0
+			},
+			"objectScriptPackage": "B8E73B764CF33272FD77909B59727430",
+			"objectScriptName": "chessPiece.js",
+			"uniqueId": "bb1",
+			"objectGroupId": -1,
+			"bCanBeDamaged": false
+		},
+		{
+			"objectType": "DynamicObject",
+			"transform":
+			{
+				"rotation":
+				{
+					"x": -6.2692947722098324e-08,
+					"y": -2.312796851811072e-07,
+					"z": 0.70710521936416626,
+					"w": 0.70710831880569458
+				},
+				"translation":
+				{
+					"x": -8.2455234527587891,
+					"y": 19.124900817871094,
+					"z": 89.401214599609375
+				},
+				"scale3D":
+				{
+					"x": 1,
+					"y": 1,
+					"z": 1
+				}
+			},
+			"simulatingPhysics": true,
+			"primaryColor":
+			{
+				"b": 14,
+				"g": 29,
+				"r": 50,
+				"a": 255
+			},
+			"secondaryColor":
+			{
+				"b": 0,
+				"g": 0,
+				"r": 0,
+				"a": 255
+			},
+			"metallic": 0,
+			"roughness": 1,
+			"friction": 0.69999998807907104,
+			"restitution": 0.30000001192092896,
+			"density": 1,
+			"surfaceType": "SurfaceType2",
+			"objectName": "",
+			"objectDescription": "",
+			"collisionType": "CB_Regular",
+			"templateId": "76BE736B49135058FCF110B3B230D7E4",
+			"shouldSnap": true,
+			"previousPosition":
+			{
+				"x": 0,
+				"y": 0,
+				"z": 0
+			},
+			"objectScriptPackage": "B8E73B764CF33272FD77909B59727430",
+			"objectScriptName": "chessPiece.js",
+			"uniqueId": "bb2",
+			"objectGroupId": -1,
+			"bCanBeDamaged": false
+		},
+		{
+			"objectType": "DynamicObject",
+			"transform":
+			{
+				"rotation":
+				{
+					"x": 5.5881822606795861e-12,
+					"y": -2.9802319545524369e-07,
+					"z": 1.8750830349745229e-05,
+					"w": 1
+				},
+				"translation":
+				{
+					"x": -2.6744849681854248,
+					"y": 13.552287101745605,
+					"z": 89.42791748046875
+				},
+				"scale3D":
+				{
+					"x": 1,
+					"y": 1,
+					"z": 1
+				}
+			},
+			"simulatingPhysics": true,
+			"primaryColor":
+			{
+				"b": 14,
+				"g": 29,
+				"r": 50,
+				"a": 255
+			},
+			"secondaryColor":
+			{
+				"b": 0,
+				"g": 0,
+				"r": 0,
+				"a": 255
+			},
+			"metallic": 0,
+			"roughness": 1,
+			"friction": 0.69999998807907104,
+			"restitution": 0.30000001192092896,
+			"density": 1,
+			"surfaceType": "SurfaceType2",
+			"objectName": "",
+			"objectDescription": "",
+			"collisionType": "CB_Regular",
+			"templateId": "CB6CF5DE46A6EE07FBA031B0B1DCB199",
+			"shouldSnap": true,
+			"previousPosition":
+			{
+				"x": 0,
+				"y": 0,
+				"z": 0
+			},
+			"objectScriptPackage": "B8E73B764CF33272FD77909B59727430",
+			"objectScriptName": "chessPiece.js",
+			"uniqueId": "bp5",
+			"objectGroupId": -1,
+			"bCanBeDamaged": false
+		},
+		{
+			"objectType": "DynamicObject",
+			"transform":
+			{
+				"rotation":
+				{
+					"x": 0,
+					"y": -0,
+					"z": 0.70710688829421997,
+					"w": 0.70710670948028564
+				},
+				"translation":
+				{
+					"x": 0.11104568094015121,
+					"y": -0.37663054466247559,
+					"z": 88.4117431640625
+				},
+				"scale3D":
+				{
+					"x": 1,
+					"y": 1,
+					"z": 1
+				}
+			},
+			"simulatingPhysics": false,
+			"primaryColor":
+			{
+				"b": 0,
+				"g": 15,
+				"r": 34,
+				"a": 255
+			},
+			"secondaryColor":
+			{
+				"b": 195,
+				"g": 195,
+				"r": 195,
+				"a": 255
+			},
+			"metallic": 0,
+			"roughness": 1,
+			"friction": 0.69999998807907104,
+			"restitution": 0.30000001192092896,
+			"density": 1,
+			"surfaceType": "SurfaceType2",
+			"objectName": "",
+			"objectDescription": "",
+			"collisionType": "CB_Ground",
+			"templateId": "95DA8FEA473583247096D994F4CD897E",
+			"shouldSnap": true,
+			"previousPosition":
+			{
+				"x": 0,
+				"y": 0,
+				"z": 0
+			},
+			"objectScriptPackage": "B8E73B764CF33272FD77909B59727430",
+			"objectScriptName": "chessboard.js",
+			"uniqueId": "chessboard",
+			"objectGroupId": -1,
+			"bCanBeDamaged": false
+		},
+		{
+			"objectType": "DynamicObject",
+			"transform":
+			{
+				"rotation":
+				{
+					"x": -6.790564839320723e-07,
+					"y": 5.3263084964783047e-07,
+					"z": 1.9785143194894772e-06,
+					"w": 1
+				},
+				"translation":
+				{
+					"x": 14.039638519287109,
+					"y": 13.551969528198242,
+					"z": 89.427940368652344
+				},
+				"scale3D":
+				{
+					"x": 1,
+					"y": 1,
+					"z": 1
+				}
+			},
+			"simulatingPhysics": true,
+			"primaryColor":
+			{
+				"b": 14,
+				"g": 29,
+				"r": 50,
+				"a": 255
+			},
+			"secondaryColor":
+			{
+				"b": 0,
+				"g": 0,
+				"r": 0,
+				"a": 255
+			},
+			"metallic": 0,
+			"roughness": 1,
+			"friction": 0.69999998807907104,
+			"restitution": 0.30000001192092896,
+			"density": 1,
+			"surfaceType": "SurfaceType2",
+			"objectName": "",
+			"objectDescription": "",
+			"collisionType": "CB_Regular",
+			"templateId": "CB6CF5DE46A6EE07FBA031B0B1DCB199",
+			"shouldSnap": true,
+			"previousPosition":
+			{
+				"x": 0,
+				"y": 0,
+				"z": 0
+			},
+			"objectScriptPackage": "B8E73B764CF33272FD77909B59727430",
+			"objectScriptName": "chessPiece.js",
+			"uniqueId": "bp2",
+			"objectGroupId": -1,
+			"bCanBeDamaged": false
+		},
+		{
+			"objectType": "DynamicObject",
+			"transform":
+			{
+				"rotation":
+				{
+					"x": 2.3968450477696024e-06,
+					"y": 5.3263227073330199e-07,
+					"z": 1.3026749456912512e-08,
+					"w": 1
+				},
+				"translation":
+				{
+					"x": 19.611652374267578,
+					"y": 13.551913261413574,
+					"z": 89.427940368652344
+				},
+				"scale3D":
+				{
+					"x": 1,
+					"y": 1,
+					"z": 1
+				}
+			},
+			"simulatingPhysics": true,
+			"primaryColor":
+			{
+				"b": 14,
+				"g": 29,
+				"r": 50,
+				"a": 255
+			},
+			"secondaryColor":
+			{
+				"b": 0,
+				"g": 0,
+				"r": 0,
+				"a": 255
+			},
+			"metallic": 0,
+			"roughness": 1,
+			"friction": 0.69999998807907104,
+			"restitution": 0.30000001192092896,
+			"density": 1,
+			"surfaceType": "SurfaceType2",
+			"objectName": "",
+			"objectDescription": "",
+			"collisionType": "CB_Regular",
+			"templateId": "CB6CF5DE46A6EE07FBA031B0B1DCB199",
+			"shouldSnap": true,
+			"previousPosition":
+			{
+				"x": 0,
+				"y": 0,
+				"z": 0
+			},
+			"objectScriptPackage": "B8E73B764CF33272FD77909B59727430",
+			"objectScriptName": "chessPiece.js",
+			"uniqueId": "bp1",
+			"objectGroupId": -1,
+			"bCanBeDamaged": false
+		},
+		{
+			"objectType": "DynamicObject",
+			"transform":
+			{
+				"rotation":
+				{
+					"x": 0,
+					"y": 0,
+					"z": 0,
+					"w": 1
+				},
+				"translation":
+				{
+					"x": 2.8974971771240234,
+					"y": 19.123157501220703,
+					"z": 89.930221557617188
+				},
+				"scale3D":
+				{
+					"x": 1,
+					"y": 1,
+					"z": 1
+				}
+			},
+			"simulatingPhysics": true,
+			"primaryColor":
+			{
+				"b": 14,
+				"g": 29,
+				"r": 50,
+				"a": 255
+			},
+			"secondaryColor":
+			{
+				"b": 0,
+				"g": 0,
+				"r": 0,
+				"a": 255
+			},
+			"metallic": 0,
+			"roughness": 1,
+			"friction": 0.69999998807907104,
+			"restitution": 0.30000001192092896,
+			"density": 1,
+			"surfaceType": "SurfaceType2",
+			"objectName": "",
+			"objectDescription": "",
+			"collisionType": "CB_Regular",
+			"templateId": "29407DCD47DAB595775217B203B1A641",
+			"shouldSnap": true,
+			"previousPosition":
+			{
+				"x": 0,
+				"y": 0,
+				"z": 0
+			},
+			"objectScriptPackage": "B8E73B764CF33272FD77909B59727430",
+			"objectScriptName": "chessPiece.js",
+			"uniqueId": "bq",
+			"objectGroupId": -1,
+			"bCanBeDamaged": false
+		},
+		{
+			"objectType": "DynamicObject",
+			"transform":
+			{
+				"rotation":
+				{
+					"x": -1.7330912669422105e-06,
+					"y": -1.7881244502859772e-06,
+					"z": -8.5221181507222354e-06,
+					"w": 1
+				},
+				"translation":
+				{
+					"x": 19.61115837097168,
+					"y": 19.123828887939453,
+					"z": 89.934074401855469
+				},
+				"scale3D":
+				{
+					"x": 1,
+					"y": 1,
+					"z": 1
+				}
+			},
+			"simulatingPhysics": true,
+			"primaryColor":
+			{
+				"b": 14,
+				"g": 29,
+				"r": 50,
+				"a": 255
+			},
+			"secondaryColor":
+			{
+				"b": 0,
+				"g": 0,
+				"r": 0,
+				"a": 255
+			},
+			"metallic": 0,
+			"roughness": 1,
+			"friction": 0.69999998807907104,
+			"restitution": 0.30000001192092896,
+			"density": 1,
+			"surfaceType": "SurfaceType2",
+			"objectName": "",
+			"objectDescription": "",
+			"collisionType": "CB_Regular",
+			"templateId": "A45EE5C143ACDBEE4DE585A45E4653D7",
+			"shouldSnap": true,
+			"previousPosition":
+			{
+				"x": 0,
+				"y": 0,
+				"z": 0
+			},
+			"objectScriptPackage": "B8E73B764CF33272FD77909B59727430",
+			"objectScriptName": "chessPiece.js",
+			"uniqueId": "br1",
+			"objectGroupId": -1,
+			"bCanBeDamaged": false
+		},
+		{
+			"objectType": "DynamicObject",
+			"transform":
+			{
+				"rotation":
+				{
+					"x": 7.9894844020600431e-06,
+					"y": 3.1957913506630575e-06,
+					"z": -2.6634162964001007e-07,
+					"w": 1
+				},
+				"translation":
+				{
+					"x": -19.389186859130859,
+					"y": -19.877723693847656,
+					"z": 89.934066772460938
+				},
+				"scale3D":
+				{
+					"x": 1,
+					"y": 1,
+					"z": 1
+				}
+			},
+			"simulatingPhysics": true,
+			"primaryColor":
+			{
+				"b": 200,
+				"g": 255,
+				"r": 255,
+				"a": 255
+			},
+			"secondaryColor":
+			{
+				"b": 0,
+				"g": 0,
+				"r": 0,
+				"a": 255
+			},
+			"metallic": 0,
+			"roughness": 1,
+			"friction": 0.69999998807907104,
+			"restitution": 0.30000001192092896,
+			"density": 1,
+			"surfaceType": "SurfaceType2",
+			"objectName": "",
+			"objectDescription": "",
+			"collisionType": "CB_Regular",
+			"templateId": "E3C6AD424A2B186E998B8F937CB28A24",
+			"shouldSnap": true,
+			"previousPosition":
+			{
+				"x": 0,
+				"y": 0,
+				"z": 0
+			},
+			"objectScriptPackage": "B8E73B764CF33272FD77909B59727430",
+			"objectScriptName": "chessPiece.js",
+			"uniqueId": "wr2",
+			"objectGroupId": -1,
+			"bCanBeDamaged": false
+		},
+		{
+			"objectType": "DynamicObject",
+			"transform":
+			{
+				"rotation":
+				{
+					"x": 5.3263272548065288e-07,
+					"y": -2.3841742802233057e-07,
+					"z": 2.1226089756964939e-06,
+					"w": 1
+				},
+				"translation":
+				{
+					"x": 8.4681806564331055,
+					"y": 13.551970481872559,
+					"z": 89.427940368652344
+				},
+				"scale3D":
+				{
+					"x": 1,
+					"y": 1,
+					"z": 1
+				}
+			},
+			"simulatingPhysics": true,
+			"primaryColor":
+			{
+				"b": 14,
+				"g": 29,
+				"r": 50,
+				"a": 255
+			},
+			"secondaryColor":
+			{
+				"b": 0,
+				"g": 0,
+				"r": 0,
+				"a": 255
+			},
+			"metallic": 0,
+			"roughness": 1,
+			"friction": 0.69999998807907104,
+			"restitution": 0.30000001192092896,
+			"density": 1,
+			"surfaceType": "SurfaceType2",
+			"objectName": "",
+			"objectDescription": "",
+			"collisionType": "CB_Regular",
+			"templateId": "CB6CF5DE46A6EE07FBA031B0B1DCB199",
+			"shouldSnap": true,
+			"previousPosition":
+			{
+				"x": 0,
+				"y": 0,
+				"z": 0
+			},
+			"objectScriptPackage": "B8E73B764CF33272FD77909B59727430",
+			"objectScriptName": "chessPiece.js",
+			"uniqueId": "bp3",
+			"objectGroupId": -1,
+			"bCanBeDamaged": false
+		},
+		{
+			"objectType": "Table",
+			"transform":
+			{
+				"rotation":
+				{
+					"x": 0,
+					"y": 0,
+					"z": 0,
+					"w": 1
+				},
+				"translation":
+				{
+					"x": 0,
+					"y": 0,
+					"z": 0
+				},
+				"scale3D":
+				{
+					"x": 1,
+					"y": 1,
+					"z": 1
+				}
+			},
+			"simulatingPhysics": false,
+			"primaryColor":
+			{
+				"b": 255,
+				"g": 255,
+				"r": 255,
+				"a": 255
+			},
+			"secondaryColor":
+			{
+				"b": 0,
+				"g": 0,
+				"r": 0,
+				"a": 255
+			},
+			"metallic": 0,
+			"roughness": 1,
+			"friction": 0.69999998807907104,
+			"restitution": 0.30000001192092896,
+			"density": 1,
+			"surfaceType": "SurfaceType1",
+			"objectName": "",
+			"objectDescription": "",
+			"collisionType": "CB_Static",
+			"templateId": "F69AC1C14EECD08677520289DBF15223",
+			"shouldSnap": true,
+			"previousPosition":
+			{
+				"x": 0,
+				"y": 0,
+				"z": 0
+			},
+			"objectScriptPackage": "00000000000000000000000000000000",
+			"objectScriptName": "",
+			"uniqueId": "",
+			"objectGroupId": -1,
+			"bCanBeDamaged": false
+		}
+	]
+}

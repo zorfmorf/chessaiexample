@@ -1,0 +1,112 @@
+{
+	"Type": "Table",
+	"GUID": "F69AC1C14EECD08677520289DBF15223",
+	"Name": "Glass Round",
+	"CollisionType": "Static",
+	"Friction": 0.7,
+	"Restitution": 0.3,
+	"Density": 1,
+	"SurfaceType": "Plastic",
+	"Roughness": 1,
+	"Metallic": 0,
+	"PrimaryColor":
+	{
+		"R": 255,
+		"G": 255,
+		"B": 255
+	},
+	"SecondaryColor":
+	{
+		"R": 0,
+		"G": 0,
+		"B": 0
+	},
+	"Flippable": false,
+	"ScriptName": "",
+	"Blueprint": "",
+	"Models": [
+		{
+			"Model": "StaticMesh'/Game/Meshes/Tables/GlassRound_Top.GlassRound_Top'",
+			"Offset":
+			{
+				"X": 0,
+				"Y": 0,
+				"Z": 0
+			},
+			"Scale":
+			{
+				"X": 1,
+				"Y": 1,
+				"Z": 1
+			},
+			"Rotation":
+			{
+				"X": 0,
+				"Y": 0,
+				"Z": 0
+			},
+			"UseCustomMaterial": true,
+			"IsTransparent": false,
+			"UseOverrides": true,
+			"SurfaceType": "Glass"
+		},
+		{
+			"Model": "StaticMesh'/Game/Meshes/Tables/GlassRound_WoodStand.GlassRound_WoodStand'",
+			"Offset":
+			{
+				"X": 0,
+				"Y": 0,
+				"Z": 0
+			},
+			"Scale":
+			{
+				"X": 1,
+				"Y": 1,
+				"Z": 1
+			},
+			"Rotation":
+			{
+				"X": 0,
+				"Y": 0,
+				"Z": 0
+			},
+			"UseCustomMaterial": true,
+			"IsTransparent": false,
+			"UseOverrides": true,
+			"SurfaceType": "Wood"
+		},
+		{
+			"Model": "StaticMesh'/Game/Meshes/Tables/GlassRound_MetalStand.GlassRound_MetalStand'",
+			"Offset":
+			{
+				"X": 0,
+				"Y": 0,
+				"Z": 0
+			},
+			"Scale":
+			{
+				"X": 1,
+				"Y": 1,
+				"Z": 1
+			},
+			"Rotation":
+			{
+				"X": 0,
+				"Y": 0,
+				"Z": 0
+			},
+			"UseCustomMaterial": true,
+			"IsTransparent": false,
+			"UseOverrides": true,
+			"SurfaceType": "Metal"
+		}
+	],
+	"Collision": [],
+	"SnapPoints": [],
+	"ZoomViewDirection":
+	{
+		"X": 0,
+		"Y": 0,
+		"Z": 0
+	}
+}

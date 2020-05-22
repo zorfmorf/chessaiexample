@@ -1,0 +1,3 @@
+
+Original project: https://github.com/lhartikk/simple-chess-ai
+Related blogpost: https://www.freecodecamp.org/news/simple-chess-ai-step-by-step-1d55a9266977/

@@ -1,0 +1,64 @@
+{
+	"Type": "Generic",
+	"GUID": "5B462B1C46555563C76BF682B6EE661D",
+	"Name": "Black King",
+	"CollisionType": "Regular",
+	"Friction": 0.7,
+	"Restitution": 0.3,
+	"Density": 1,
+	"SurfaceType": "Wood",
+	"Roughness": 1,
+	"Metallic": 0,
+	"PrimaryColor":
+	{
+		"R": 50,
+		"G": 29,
+		"B": 14
+	},
+	"SecondaryColor":
+	{
+		"R": 0,
+		"G": 0,
+		"B": 0
+	},
+	"Flippable": false,
+	"ScriptName": "chessPiece.js",
+	"Blueprint": "",
+	"Models": [
+		{
+			"Model": "StaticMesh'/Game/Meshes/Chess/King.King'",
+			"Offset":
+			{
+				"X": 0,
+				"Y": 0,
+				"Z": 0
+			},
+			"Scale":
+			{
+				"X": 1,
+				"Y": 1,
+				"Z": 1
+			},
+			"Rotation":
+			{
+				"X": 0,
+				"Y": 0,
+				"Z": 0
+			},
+			"Texture": "Texture2D'/Game/Textures/Chess/T_ChessPieces.T_ChessPieces'",
+			"NormalMap": "Texture2D'/Game/Textures/Chess/N_ChessPieces.N_ChessPieces'",
+			"ExtraMap": "Texture2D'/Game/Textures/Chess/T_ChessPieces_Extra.T_ChessPieces_Extra'",
+			"IsTransparent": false,
+			"UseOverrides": true,
+			"SurfaceType": "Plastic"
+		}
+	],
+	"Collision": [],
+	"SnapPoints": [],
+	"ZoomViewDirection":
+	{
+		"X": 0,
+		"Y": 0,
+		"Z": 0
+	}
+}
