@@ -6,6 +6,7 @@ const { ChessAI } = require("./chessengine/chessai");
 console.log("Initializing chessboard " + refObject.getId());
 
 refObject.chessAI = ChessAI(new Chess());
+refObject.player = world.getAllPlayers()[0];
 
 
 /**
@@ -75,8 +76,9 @@ refObject.discardChessPiece = function(piece)
         locPos = locPos.add(new Vector(20, 70, 20));
     }
     // move pice to discard pile and set to random rotation
-    piece.setPosition(this.localPositionToWorld(locPos), 2);
+    piece.setPosition(this.localPositionToWorld(locPos), 5);
     piece.setRotation(new Rotator(Math.random() * 360, Math.random() * 360, Math.random() * 360), 1);
+    piece.setObjectType(1); // set to ground object
 }
 
 
@@ -101,8 +103,10 @@ refObject.onPieceMoved = function(piece, grabPosition)
         }
 
         // tell AI about the move and print the chess state to console
-        console.log(from, "->", to);
+        console.log("Player move", from, "->", to);
         this.chessAI.move(from, to);
+        if (this.chessAI.in_checkmate()) { this.endGame("Checkmate!"); return; }
+        if (this.chessAI.in_stalemate()) { this.endGame("Draw!"); return; }
         
         // handle AI response in next tick.
         // it can take a second or two to calculate the response, which leads to the
@@ -111,6 +115,7 @@ refObject.onPieceMoved = function(piece, grabPosition)
         process.nextTick(function(){
             // let the AI decide on a good move to make next
             var move = refObject.chessAI.get_best_move();
+            console.log("Response", move);
             console.log("Response", move.from, "->", move.to);
 
             // translate AI move back into actual positions
@@ -136,6 +141,14 @@ refObject.onPieceMoved = function(piece, grabPosition)
                 // tell the ai that the move has been executed and print state to console
                 refObject.chessAI.move(move.from, move.to);
                 refObject.chessAI.print();
+
+                if (refObject.chessAI.in_checkmate()) { refObject.endGame("Checkmate!"); return; }
+                if (refObject.chessAI.in_stalemate()) { refObject.endGame("Draw!"); return; }
+
+                if (refObject.chessAI.in_check()) {
+                    refObject.player.sendChatMessage("Check", new Color(150, 150, 10, 255));
+                    refObject.player.showMessage("Check");
+                }
             }
             else
             {
@@ -143,4 +156,23 @@ refObject.onPieceMoved = function(piece, grabPosition)
             }
         });
     }
+}
+
+
+/**
+ * Sets the game to end state with the given reason
+ */
+refObject.endGame = function(reason)
+{
+
+    this.player.sendChatMessage(reason, new Color(150, 150, 10, 255));
+    this.player.showMessage(reason);
+
+
+    world.getAllObjects().forEach(
+        function(obj)
+        {
+			obj.setObjectType(1);
+        }
+    );
 }

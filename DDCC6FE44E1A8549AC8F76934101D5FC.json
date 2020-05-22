@@ -1,7 +1,7 @@
 {
 	"Type": "Generic",
 	"GUID": "DDCC6FE44E1A8549AC8F76934101D5FC",
-	"Name": "bk",
+	"Name": "Black Knight",
 	"CollisionType": "Regular",
 	"Friction": 0.7,
 	"Restitution": 0.3,

@@ -199,6 +199,18 @@ var ChessAI = function(chess)
 
         game_over: function() {
             return game.game_over();
+        },
+
+        in_checkmate: function() {
+            return game.in_checkmate();
+        },
+
+        in_check: function() {
+            return game.in_check();
+        },
+
+        in_stalemate: function() {
+            return game.in_stalemate();
         }
     }
 };
