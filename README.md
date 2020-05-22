@@ -1,5 +1,5 @@
 # chessaiexample
-Example project for Tabletop Playground that adds a scripting AI to the game
+Example project for [Tabletop Playground](https://tabletop-playground.com/) that adds a scripting AI to the game
 
 The chess ai has been taken as is from the following github project:
 * Original project: https://github.com/lhartikk/simple-chess-ai
