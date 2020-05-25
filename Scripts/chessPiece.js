@@ -1,5 +1,4 @@
 const { refObject } = require('@tabletop-playground/api');
-const { world } = require('@tabletop-playground/api');
 
 
 refObject.onCreated.add(

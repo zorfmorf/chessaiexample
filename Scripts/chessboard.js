@@ -2,10 +2,8 @@ const { refObject, world } = require('@tabletop-playground/api');
 
 const { Chess } = require("./chessengine/chess");
 const { ChessAI } = require("./chessengine/chessai");
-
-console.log("Initializing chessboard " + refObject.getId());
-
 refObject.chessAI = ChessAI(new Chess());
+
 refObject.player = world.getAllPlayers()[0];
 
 
@@ -23,7 +21,7 @@ refObject.worldPosToChessPos = function(pos)
 
 
 /**
- * Returns a world position for the given chess position
+ * Returns a world position vector for the given chess position
  * e.g. A4 → Vector(23.2, 64.6, -5.0)
  */
 refObject.chessPosToWorldPos = function(chessPos)
@@ -76,9 +74,9 @@ refObject.discardChessPiece = function(piece)
         locPos = locPos.add(new Vector(20, 70, 20));
     }
     // move pice to discard pile and set to random rotation
-    piece.setPosition(this.localPositionToWorld(locPos), 5);
+    piece.setObjectType(0); // set regular object so physics are simulated
+    piece.setPosition(this.localPositionToWorld(locPos));
     piece.setRotation(new Rotator(Math.random() * 360, Math.random() * 360, Math.random() * 360), 1);
-    piece.setObjectType(1); // set to ground object
 }
 
 
@@ -115,7 +113,6 @@ refObject.onPieceMoved = function(piece, grabPosition)
         process.nextTick(function(){
             // let the AI decide on a good move to make next
             var move = refObject.chessAI.get_best_move();
-            console.log("Response", move);
             console.log("Response", move.from, "->", move.to);
 
             // translate AI move back into actual positions
@@ -126,29 +123,28 @@ refObject.onPieceMoved = function(piece, grabPosition)
             var matches = refObject.findChessPieceAtPosition(ifrom);
             if (matches.length == 1)
             {
-                
-                // see if there is already a piece at the position and remove it
-                var existingObjects = refObject.findChessPieceAtPosition(ito);
-                if (existingObjects.length == 1)
-                {
-                    refObject.discardChessPiece(existingObjects[0]);
-                }
 
-                // then execute the move
-                matches[0].setPosition(ito, 2);
-                matches[0].snap();
+                process.nextTick(function(){
 
-                // tell the ai that the move has been executed and print state to console
-                refObject.chessAI.move(move.from, move.to);
-                refObject.chessAI.print();
+                    // see if there is already a piece at the position and remove it
+                    var existingObjects = refObject.findChessPieceAtPosition(ito);
+                    if (existingObjects.length == 1)
+                    {
+                        refObject.discardChessPiece(existingObjects[0]);
+                    }
 
-                if (refObject.chessAI.in_checkmate()) { refObject.endGame("Checkmate!"); return; }
-                if (refObject.chessAI.in_stalemate()) { refObject.endGame("Draw!"); return; }
+                    // then execute the move
+                    matches[0].setPosition(ito, 1);
+                    matches[0].snap();
 
-                if (refObject.chessAI.in_check()) {
-                    refObject.player.sendChatMessage("Check", new Color(150, 150, 10, 255));
-                    refObject.player.showMessage("Check");
-                }
+                    // tell the ai that the move has been executed and print state to console
+                    refObject.chessAI.move(move.from, move.to);
+                    refObject.chessAI.print();
+
+                    if (refObject.chessAI.in_checkmate()) { refObject.endGame("Checkmate!"); return; }
+                    if (refObject.chessAI.in_stalemate()) { refObject.endGame("Draw!"); return; }
+                    if (refObject.chessAI.in_check()) { refObject.playerMessage("Check"); }
+                });
             }
             else
             {
@@ -158,6 +154,21 @@ refObject.onPieceMoved = function(piece, grabPosition)
     }
 }
 
+/**
+ * Send a message to all players
+ */
+refObject.playerMessage = function(message)
+{
+    // Send check to all players
+    world.getAllPlayers().forEach(
+        function(player)
+        {
+            player.sendChatMessage(message, new Color(150, 150, 10, 255));
+            player.showMessage(message);
+        }
+    );
+}
+
 
 /**
  * Sets the game to end state with the given reason
@@ -165,10 +176,9 @@ refObject.onPieceMoved = function(piece, grabPosition)
 refObject.endGame = function(reason)
 {
 
-    this.player.sendChatMessage(reason, new Color(150, 150, 10, 255));
-    this.player.showMessage(reason);
+    this.playerMessage(reason);
 
-
+    // set all chess pieces to ground type -> no more moves
     world.getAllObjects().forEach(
         function(obj)
         {
