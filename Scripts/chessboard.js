@@ -16,7 +16,7 @@ refObject.worldPosToChessPos = function(pos)
     var localPos = this.worldPositionToLocal(pos);
     var col = String.fromCharCode(96 + Math.floor(4.587 - localPos.y / 5.572 + 0.5));
     var row = Math.floor(4.547 - localPos.x / 5.572 + 0.5);
-    return col+row;
+    return col + row;
 }
 
 
@@ -109,28 +109,28 @@ refObject.onPieceMoved = function(piece, grabPosition)
         // handle AI response in next tick.
         // it can take a second or two to calculate the response, which leads to the
         // game freezing for a bit. If the player move is finished first, it's not notieceable
-        var refObject = this; // set explicitly so we can use it in the nexttick callback
+        var chessboard = this; // set explicitly so we can use it in the nexttick callback
         process.nextTick(function(){
             // let the AI decide on a good move to make next
-            var move = refObject.chessAI.get_best_move();
+            var move = chessboard.chessAI.get_best_move();
             console.log("Response", move.from, "->", move.to);
 
             // translate AI move back into actual positions
-            var ifrom = refObject.chessPosToWorldPos(move.from);
-            var ito = refObject.chessPosToWorldPos(move.to);
+            var ifrom = chessboard.chessPosToWorldPos(move.from);
+            var ito = chessboard.chessPosToWorldPos(move.to);
 
             // try to execute the ai move
-            var matches = refObject.findChessPieceAtPosition(ifrom);
+            var matches = chessboard.findChessPieceAtPosition(ifrom);
             if (matches.length == 1)
             {
 
                 process.nextTick(function(){
 
                     // see if there is already a piece at the position and remove it
-                    var existingObjects = refObject.findChessPieceAtPosition(ito);
+                    var existingObjects = chessboard.findChessPieceAtPosition(ito);
                     if (existingObjects.length == 1)
                     {
-                        refObject.discardChessPiece(existingObjects[0]);
+                        chessboard.discardChessPiece(existingObjects[0]);
                     }
 
                     // then execute the move
@@ -138,12 +138,12 @@ refObject.onPieceMoved = function(piece, grabPosition)
                     matches[0].snap();
 
                     // tell the ai that the move has been executed and print state to console
-                    refObject.chessAI.move(move.from, move.to);
-                    refObject.chessAI.print();
+                    chessboard.chessAI.move(move.from, move.to);
+                    chessboard.chessAI.print();
 
-                    if (refObject.chessAI.in_checkmate()) { refObject.endGame("Checkmate!"); return; }
-                    if (refObject.chessAI.in_stalemate()) { refObject.endGame("Draw!"); return; }
-                    if (refObject.chessAI.in_check()) { refObject.playerMessage("Check"); }
+                    if (chessboard.chessAI.in_checkmate()) { chessboard.endGame("Checkmate!"); return; }
+                    if (chessboard.chessAI.in_stalemate()) { chessboard.endGame("Draw!"); return; }
+                    if (chessboard.chessAI.in_check()) { chessboard.playerMessage("Check"); }
                 });
             }
             else
@@ -175,7 +175,6 @@ refObject.playerMessage = function(message)
  */
 refObject.endGame = function(reason)
 {
-
     this.playerMessage(reason);
 
     // set all chess pieces to ground type -> no more moves
