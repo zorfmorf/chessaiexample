@@ -1,5 +1,5 @@
 # chessaiexample
-Scripting example project for [Tabletop Playground](https://tabletop-playground.com/) that combines the pre-existing chess board setup with a javascript chess ai.
+Scripting example project for [Tabletop Playground](https://tabletop-playground.com/) that combines the pre-existing chess board setup with a javascript chess ai. The [corresponding mod.io page can be found here](https://tabletopplayground.mod.io/chess-ai-scripting-example/)
 
 The chess ai has been taken as is from the following github project:
 * Original project: https://github.com/lhartikk/simple-chess-ai
